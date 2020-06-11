@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>叁人行学院-IT人的自我成长社区</title>
+    <!-- 引入Bootstrap核心样式文件（必须） -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <!-- 你自己的样式或其他文件 -->
+    <link rel="stylesheet" href="css/index.css">
+    <!--站点图标-->
+    <link rel="shortcut icon" href="imgs/lk_favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<!--头部-->
+<header id="lk_header">
+    <!--上部分-->
+
+    <!--下部分-->
+    <nav class="navbar navbar-default navbar-static-top navbar-lk">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lk_nav"
+                        aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/IT.png" alt="撩课" width="60">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="lk_nav">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="javascript:;">课程</a></li>
+                    <li><a href="javascript:;">学校</a></li>
+                    <li><a href="javascript:;">学校云</a></li>
+                    <li><a href="javascript:;">下载APP</a></li>
+                    <li><a href="javascript:;">课堂互动</a></li>
+                    <li><a href="javascript:;">联系我们</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+                    <li><a href="#">登录|注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--/头部-->
+
+<!--轮播图-->
+<section id="lk_carousel" class="carousel slide" data-ride="carousel">
+    <!-- 指示器 -->
+    <ol class="carousel-indicators">
+        <li data-target="#lk_carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#lk_carousel" data-slide-to="1"></li>
+        <li data-target="#lk_carousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- 中间滚动的内容 -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active" data-sm-img="imgs/slide_01_640x340.png" data-lg-img="imgs/lb3.png">
+        </div>
+        <div class="item" data-sm-img="imgs/lb2.png" data-lg-img="imgs/lb2.png">
+        </div>
+        <div class="item" data-sm-img="imgs/lb1.png" data-lg-img="imgs/lb1.png">
+        </div>
+    </div>
+
+    <!-- 左右控制 -->
+    <a class="left carousel-control" href="#lk_carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#lk_carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</section>
+<!--/轮播图-->
+
+<!--关于我们-->
+<section id="lk_about" class="hidden-xs hidden-sm">
+    <!--标题-->
+    <div class="title text-center">
+        <h1><strong>关于我们</strong></h1>
+        <img src="imgs/star.png" alt="" class="img-responsive">
+    </div>
+    <!--主要内容-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p class="text-muted">
+                    叁人行学院是秣码教育旗下线上教育品牌。成立于2020年06月，zai这个炎热的夏天，我们集聚强大的IT讲师资源，独特的课程服务模式，通过新型教育方式，真正解决开发者在成长过程中的各种技术瓶颈，帮助学生在IT职场取得成功。</p>
+                <p class="text-muted">叁人行学院明星讲师云集，包括刘星、崔梦泽、赵学伟、苑亚博、徐子豪等十几位专业实战型讲师团队，悉心打造六大综合体系课程，细致且全面，全面助力学生成长。</p>
+                <p class="text-muted">叁人行学院课程体系完善，包含HTML5+全栈开发、Python+人工智能、JavaEE、计算机基础编程、计算机考研、新媒体、电商运营等系列课程。</p>
+            </div>
+            <div class="col-md-4">
+                <img src="imgs/team.png" alt="核心团队" class="img-rounded img-responsive">
+            </div>
+            <div></div>
+        </div>
+    </div>
+
+</section>
+<!--/关于我们-->
+
+<!--产品特色-->
+<section id="lk_product">
+    <div class="container">
+        <div class="row">
+            <!-- 头部选项 -->
+            <div style="overflow: auto;">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#product1" aria-controls="home" role="tab" data-toggle="tab">在线大学</a></li>
+                    <li role="presentation"><a href="#product2" aria-controls="profile" role="tab" data-toggle="tab">叁人行会员</a></li>
+                    <li role="presentation"><a href="#product3" aria-controls="messages" role="tab" data-toggle="tab">考研/考试</a></li>
+                    <li role="presentation"><a href="#product3" aria-controls="messages" role="tab" data-toggle="tab">软件工程</a></li>
+                    <li role="presentation"><a href="#product3" aria-controls="messages" role="tab" data-toggle="tab">网络安全</a></li>
+                    <li role="presentation"><a href="#product3" aria-controls="messages" role="tab" data-toggle="tab">C语言不挂科</a></li>
+                    <li class="pull-right hidden-sm hidden-xs"><a href="#" aria-controls="settings" role="tab"  data-toggle="tab">更多</a></li>
+                </ul>
+            </div>
+
+            <!-- 展示的内容 -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="product1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 pd-left">
+                                <!--第一部分-->
+                                <div id="pd_one_1" class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object" src="imgs/liuxing.JPG" alt="二维码" width="140">
+                                        </a>
+                                    </div>
+                                    <div class="media-body text-muted" style="padding-top: 100px">
+                                        <h5 class="media-heading">更多资讯欢迎</h5>
+                                        <h5 class="media-heading">关注叁人行</h5>
+                                    </div>
+                                </div>
+                                <!--第二部分-->
+                                <ol id="pd_one_2" class="breadcrumb lead">
+                                    <li><a href="#">程序设计基础</a></li>
+                                    <li><a href="#">计算机基础</a></li>
+                                    <li><a href="#">考研/考试</a></li>
+                                    <li><a href="#">网络安全</a></li>
+                                </ol>
+                                <!--第三部分-->
+                                <h1 id="pd_one_3">
+                                    欢迎来到IT人的在线大学&nbsp;&nbsp;
+                                    <strong class="text-danger">叁人行</strong>
+                                </h1>
+                                <!--第四部分-->
+                                <div id="pd_one_4">
+                                    <button class="btn btn-primary btn-lg" type="submit" style="margin-right: 20px;">
+                                        课程咨询
+                                    </button>
+                                    <button class="btn btn-default btn-lg" type="submit">了解更多</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 hidden-xs hidden-sm">
+                                <img src="imgs/web.png" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="product2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 hidden-sm hidden-xs">
+                                <img src="imgs/iphoneX2.png" alt="" class="img-responsive">
+                            </div>
+                            <div id="pd_two_1" class="col-md-8 pd-left">
+                                <h1 class="text-warning">叁人行学院会员</h1>
+                                <p class="lead">汇聚名师, 为你呈现前端、后端、移动端、大数据、人工智能等从零基础到项目实战连载课程内容。专属的会员社群和私人订制服务,
+                                    1年365天持续更新课程全部免费学习!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="product3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 pd-left">
+                                <h1>
+                                    <strong class="text-danger">
+                                        体系贯穿·全面系统
+                                    </strong>
+                                </h1>
+                                <h3>
+                                    计算机专业课
+                                    <span class="text-warning">名师讲解</span>
+                                </h3>
+                                <h4 class="text-muted" style="margin: 15px 0;">五大特色定向特训直播，模块化、差异化教学</h4>
+                                <div class="badge" style="padding: 15px 10px; cursor: pointer;">
+                                    已更新3000+视频 | 100000+人订阅
+                                </div>
+                            </div>
+                            <div class="col-md-6 hidden-xs hidden-sm">
+                                <img src="imgs/macBook.png" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/产品特色-->
+
+<!--热门课程-->
+<section id="lk_hot">
+    <!--标题-->
+    <div class="title text-center">
+        <h1><strong>热门课程</strong></h1>
+        <img src="imgs/star.png" alt="" class="img-responsive">
+    </div>
+    <!--内容-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="imgs/py.jpg" style="height: 180px; width: 100%; display: block;" alt="">
+                </a>
+                <div class="caption">
+                    <h3>玩转Python</h3>
+                    <p>Python数据分析与展示</p>
+                    <p>
+                        <a href="##" class="btn btn-primary">开始学习</a>
+                        <a href="##" class="btn btn-info">程序设计基础</a>
+                    </p>
+                </div>  
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img alt="100%x180" src="imgs/sjjg.jpg" style="height: 180px; width: 100%; display: block;">
+                </a>
+                <div class="caption">
+                    <h3>数据结构</h3>
+                    <p>	重要专业基础课程</p>
+                    <p>
+                        <a href="##" class="btn btn-primary">开始学习</a>
+                        <a href="##" class="btn btn-info">程序设计基础</a>
+                    </p>
+                </div>   
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img alt="100%x180" src="imgs/java.jpg" style="height: 180px; width: 100%; display: block;">
+                </a>
+                <div class="caption">
+                    <h3>Java程序设计</h3>
+                        <p>Java是一种优秀的面向对象的编程语言</p>
+                        <p>
+                            <a href="##" class="btn btn-primary">开始学习</a>
+                            <a href="##" class="btn btn-info">程序设计基础</a>
+                        </p>
+                </div>   
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img alt="100%x180" src="imgs/c.jpg" style="height: 180px; width: 100%; display: block;">
+                </a>
+                <div class="caption">
+                    <h3>C语言程序设计</h3>
+                    <p>领悟C语言之妙，体会学习C语言之无穷乐趣。</p>
+                    <p>
+                        <a href="##" class="btn btn-primary">开始学习</a>
+                        <a href="##" class="btn btn-info">程序设计基础</a>
+                    </p>
+                </div>   
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="imgs/ky408.png" style="height: 180px; width: 100%; display: block;" alt="">
+                </a>
+                <div class="caption">
+                    <h3>21考研408</h3>
+                    <p>21考研-408计算机统考全程提分</p>
+                    <p>
+                        <a href="##" class="btn btn-primary">开始学习</a>
+                        <a href="##" class="btn btn-info">21考研</a>
+                    </p>
+                </div>  
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img alt="100%x180" src="imgs/ky_czxt.png" style="height: 180px; width: 100%; display: block;">
+                </a>
+                <div class="caption">
+                    <h3>21考研-操作系统</h3>
+                    <p>任何基础适用</p>
+                    <p>
+                        <a href="##" class="btn btn-primary">开始学习</a>
+                        <a href="##" class="btn btn-info">21考研</a>
+                    </p>
+                </div>   
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img alt="100%x180" src="imgs/ky_jw.png" style="height: 180px; width: 100%; display: block;">
+                </a>
+                <div class="caption">
+                    <h3>21考研-计算机网络</h3>
+                        <p>任何基础适用</p>
+                        <p>
+                            <a href="##" class="btn btn-primary">开始学习</a>
+                            <a href="##" class="btn btn-info">21考研</a>
+                        </p>
+                </div>   
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img alt="100%x180" src="imgs/ky_sjjg.png" style="height: 180px; width: 100%; display: block;">
+                </a>
+                <div class="caption">
+                    <h3>21考研-数据结构</h3>
+                    <p>任何基础适用</p>
+                    <p>
+                        <a href="##" class="btn btn-primary">开始学习</a>
+                        <a href="##" class="btn btn-info">21考研</a>
+                    </p>
+                </div>   
+            </div>
+        </div>
+    </div>
+</section>
+<!--/热门课程-->
+
+<!--友情链接-->
+<section id="lk_link">
+    <!--标题-->
+    <div class="title text-center">
+        <h1><strong>叁人行</strong></h1>
+        <img src="imgs/star.png" alt="" class="img-responsive">
+    </div>
+    <ul class="logos">
+        <h3>即使错过心仪的大学，也不要错过叁人行IT学院</h3>
+    </ul>
+</section>
+<!--/友情链接-->
+
+<!--尾部-->
+<footer id="lk_footer">
+    <div class="container">
+        <div class="row" style="padding-top: 20px;">
+            <div class="col-md-3 col-md-offset-1 one">
+                <div class="row">
+                    <ul class="col-md-6">
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">学校云</a></li>
+                        <li><a href="">联系我们</a></li>
+                    </ul>
+                    <ul class="col-md-6">
+                        <li><a href="">常见问题</a></li>
+                        <li><a href="">法律条款</a></li>
+                        <li><a href="">意见反馈</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 two">
+                <h5>公司地址: 北京科技大学天津学院34斋</h5>
+                <h5>联系电话: 17634569876</h5>
+                <h5>地址邮箱: admin@liuxing-it.com</h5>
+            </div>
+            <div class="col-md-3 three">
+                <h5>联系我们:</h5>
+                <a href="">
+                    <img src="imgs/weixin.png" alt="" width="50" data-toggle="tooltip" data-placement="bottom"
+                         title="sanrenxing-it">
+                    <img src="imgs/weibo.png" alt="" width="50" data-toggle="tooltip" data-placement="bottom"
+                         title="叁人行">
+                </a>
+            </div>
+           
+        </div>
+    </div>
+</footer>
+<!--/尾部-->
+
+<!-- 登录 -->
+<div class="modal fade" id="lk_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">登录</h4>
+            </div>
+            <div class="modal-body">
+                <input type="text" placeholder="请输入手机号码">
+                <input type="password" placeholder="请输入密码">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">登录</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="lib/jquery/jquery.js"></script>
+<!-- 引入所有的Bootstrap的JS插件 -->
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<!-- 你自己的脚本文件 -->
+<script src="js/index.js"></script>
+</body>
+</html>
